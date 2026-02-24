@@ -28,7 +28,7 @@ function timeUntilStr(unixSecs) {
     const minutes = Math.floor((secondsTotal % 3600) / 60);
     const seconds = secondsTotal % 60;
 
-    return `${days} Tage ${hours} Stunden ${minutes} Minuten ${seconds} Sekunden`
+    return `${days} Tag${days === 1 ? '' : 'e'} ${hours} Stunden ${minutes} Minuten ${seconds} Sekunden`
 }
 
 async function fetchExams(url) {
@@ -43,7 +43,8 @@ async function fetchExams(url) {
     return data.exams.map(exam => ({
         name: exam.name,
         id: exam.id,
-        time: Number(exam.time)
+        time: Number(exam.time),
+        people: exam.people
     }));
 }
 
@@ -57,18 +58,20 @@ fetchExams("data.json").then(exams => {
         const tr = document.createElement("tr");
 
         const titleTd = document.createElement("td");
-        titleTd.id = `${e.id}-title`;
         titleTd.textContent = e.name;
 
         const dateTd = document.createElement("td");
-        dateTd.id = `${e.id}-date`;
         dateTd.textContent = unixToStr(e.time);
+
+        const peopleTd = document.createElement("td");
+        peopleTd.textContent = e.people;
 
         const countdownTd = document.createElement("td");
         countdownTd.id = `${e.id}-countdown`;
 
         tr.appendChild(titleTd);
         tr.appendChild(dateTd);
+        tr.appendChild(peopleTd);
         tr.appendChild(countdownTd);
 
         document.getElementById("exams-table").appendChild(tr);
@@ -83,3 +86,9 @@ fetchExams("data.json").then(exams => {
 setTimeout(() => {
     location.reload(true);
 }, 30 * 60 * 1000);
+
+// random th
+if (Math.random() < 0.3)  {
+    document.getElementById("people-th").innerText = "Leidende";
+}
+

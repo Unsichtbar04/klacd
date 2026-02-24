@@ -3,77 +3,92 @@
         {
             "name": "KommTech",
             "id": "kommtech",
-            "time": 1773820800
+            "time": 1773820800,
+            "people": "AI, TM"
         },
         {
             "name": "Schalte2",
             "id": "schalte2",
-            "time": 1773658800
-        },
-        {
-            "name": "HÖMA3",
-            "id": "hm3",
-            "time": 1771920000
+            "time": 1773658800,
+            "people": "TV"
         },
         {
             "name": "NuMa",
             "id": "numa",
-            "time": 1773216000
+            "time": 1773216000,
+            "people": "MS, RF, AI"
         },
         {
             "name": "ET3",
             "id": "et3",
-            "time": 1774609200
+            "time": 1774609200,
+            "people": "MS, RF, AI"
         },
         {
             "name": "GEMB2",
             "id": "gemb2",
-            "time": 1773043200
+            "time": 1773043200,
+            "people": "JL, TM"
         },
         {
             "name": "ET1 T1",
             "id": "et1",
-            "time": 1772611200
+            "time": 1772611200,
+            "people": "FR"
         },
         {
             "name": "HÖMA1 T2",
             "id": "hm1t2",
-            "time": 1774854000
+            "time": 1774854000,
+            "people": ""
         },
         {
             "name": "Management",
             "id": "manage",
-            "time": 1772199000
+            "time": 1772199000,
+            "people": "FR"
         },
         {
             "name": "GISS",
             "id": "giss",
-            "time": 1772092800
+            "time": 1772092800,
+            "people": "JL, TM"
         },
         {
             "name": "SysTheo2",
             "id": "systheo2",
-            "time": 1775037600
-        },
-        {
-            "name": "RMMI1",
-            "id": "rmmi1",
-            "time": 1771833600
+            "time": 1775037600,
+            "people": "JL, TM"
         },
         {
             "name": "MLSAP",
             "id": "mlsap",
-            "time": 1772616600
+            "time": 1772611200,
+            "people": "TM, LW"
+        },
+        {
+            "name": "DSP",
+            "id": "dsp",
+            "time": 1773907200,
+            "people": "LW"
+        },
+        {
+            "name": "ASE",
+            "id": "ase",
+            "time": 1774513800,
+            "people": "LW"
         },
         {
             "name": "MMS",
             "id": "mms",
-            "time": 1773043200
+            "time": 1773043200,
+            "people": "TM"
         },
         {
             "name": "EDEW",
             "id": "edew",
-            "time": 1772622000
+            "time": 1772622000,
+            "people": "JL, TM"
         }
     ]
 }
