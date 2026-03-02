@@ -49,16 +49,28 @@
             "people": "FR"
         },
         {
-            "name": "GISS",
-            "id": "giss",
-            "time": 1772092800,
-            "people": "JL, TM"
-        },
-        {
             "name": "SysTheo2",
             "id": "systheo2",
             "time": 1775037600,
             "people": "JL, TM"
+        },
+        {
+            "name": "EVS 1",
+            "id": "evs1",
+            "time": 1772535600,
+            "people": "SG"
+        },
+        {
+            "name": "EVS 2",
+            "id": "evs2",
+            "time": 1774098000,
+            "people": "SG"
+        },
+        {
+            "name": "KuA",
+            "id": "kua",
+            "time": 1774522800,
+            "people": "SG"
         },
         {
             "name": "MLSAP",
